@@ -3,27 +3,27 @@ var correct = 0;
 var rank = "";
 
 // prompt for 5 questions
-var answer1 = prompt("Who is our school named after (last name)?");
-var answer2 = prompt("What room numberare we in?");
-var answer3 = prompt("What website do we use to code?");
-var answer4 = prompt("What state are we in?");
-var answer5 = prompt("What is your favorite class?");
+var answer1 = prompt("What is your favorite class?");
+var answer2 = prompt("Which ear can most people hear better with?");
+var answer3 = prompt("Which of the New England states is largest in size?");
+var answer4 = prompt("What is the closest star to Earth?");
+var answer5 = prompt("What year did World War II end?");
 
 
 // if statements to count how many correct answers
-if ( answer1.toUpperCase() === 'WASHINGTON' ) {
+if ( answer1.toUpperCase() === 'WEB DEVELOPMENT' ) {
  correct += 1;
 }
-if ( answer2.toUpperCase() === '218' ) {
+if ( answer2.toUpperCase() === 'RIGHT' ) {
  correct += 1;
 }
-if ( answer3.toUpperCase() === 'GITHUB' ) {
+if ( answer3.toUpperCase() === 'MAINE' ) {
  correct += 1;
 }
-if ( answer4.toUpperCase() === 'MISSOURI' ) {
+if ( answer4.toUpperCase() === 'THE SUN' ) {
  correct +=1;
 }
-if ( answer5.toUpperCase() === 'WEB DEVELOPMENT' ) {
+if ( answer5.toUpperCase() === '1945' ) {
  correct += 1;
 }
 
